@@ -4,13 +4,9 @@ I used ChatGPT during development whenever I got stuck or wanted to double-check
 
 ## What was AI-generated vs. what I wrote/reviewed myself
 
-ChatGPT mainly helped with:
-- Understanding some implementation details.
-- Discussing API design and validation logic.
-- Suggesting small improvements to code readability.
-- Helping me debug a few issues during development.
+ChatGPT assisted with parts of the implementation, including discussing the Express application structure, validation logic, controller flow, and suggesting improvements to code readability. I completed the integration, reviewed every file, verified the request flow, and ensured the final implementation matched the assignment requirements before submitting.
 
-After that, I went through the code myself and reviewed each file before finishing the project. In particular:
+In particular:
 
 - **`src/utils/validateExpense.js`** – I checked that it correctly validates required fields, rejects non-positive amounts, and accepts only valid date formats.
 - **`src/controllers/expenseController.js`** – I verified the request flow from validation to storing data and made sure deleting an expense with an invalid ID returns a `404` response.
